@@ -1,0 +1,106 @@
+.prefooter{
+    margin: 5vmax 0 0 0;
+    background-color: white;
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+}
+
+.prefooter>div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(90, 89, 87);
+    cursor: pointer;
+}
+
+.prefooter>div:hover svg{
+    fill: black;
+}
+
+.prefooter>div:hover p{
+    color: black;
+}
+
+.prefooter span{
+    text-align: left;
+}
+
+.prefooter svg{
+    transform: scale(2) translateY(-0.2vmax);
+    fill: black;
+    margin: 2vmax;
+}
+
+.prefooter2{
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.prefooter2>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prefooter2>div>p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0%;
+}
+
+.prefooter2>div>span{
+    color: gray;
+    width: 18vmax;
+    font-size: 1vmax;
+}
+
+.prefooter2>div>div>input{
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: beige;
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+
+.prefooter2>div>div>button{
+    border: none;
+    padding: 0.5vmax;
+    background-color: aliceblue;
+    outline: none;
+}
+
+.prefooter2>div>div{
+    border:ipx solid gray;
+}
+
+.prefooter2>div:nth-child(2)>span{
+    width: 22vmax;
+}
+
+.prefooter2>div:nth-child(3){
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.prefooter2>div:nth-child(3) >p{
+    width: 14vmax;
+}
+
+.prefooter2>div:nth-child(3)>span{
+    width: 14vmax;
+}
+
+.prefooter2>div:nth-child(4){
+    flex-direction: row;
+}
+
+.prefooter2>div:nth-child(4)>svg:hover{
+    fill: gray;
+}
